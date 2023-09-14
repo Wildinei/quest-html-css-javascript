@@ -6,6 +6,6 @@ Desafio realizado durante o módulo de JavaScript intermediário avançado do cu
 
 - HTML
 - CSS
--JavaScript
+- JavaScript
 
 ## DevQuest

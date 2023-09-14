@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <title>Desafio HTML - CSS - JAVASCRIPT</title>
+</head>
+<body>
+    
+    <main>
+        <section class="container">
+            <div class="conteudo">
+                <h1>FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!
+                </h1>
+                <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entratemos em contato em menos de 24h.</p>
+            </div>
+    
+            <form class="formulario">
+                <label for="nome"></label>
+                <input type="text" id="nome" placeholder="Nome completo *" class="input">
+                <small class="campo mostrar">Campo obrigatório</small>
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Email *" class="input">
+                <small class="campo mostrar">Campo obrigatório</small>
+                <label for="numero"></label>
+                <input type="number" id="numero" placeholder="Telefone *" class="input">
+                <small class="campo mostrar">Campo obrigatório</small>
+                <label for="descricao"></label>
+                <textarea class="input" name="descricao" id="descricao" cols="30" rows="10" placeholder="Mensagem *"></textarea>
+                <small class="campo mostrar">Campo obrigatório</small>
+                <p><strong>* Campos Obrigatórios</strong></p>
+                <button class="btn">Enviar</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <script src="src/js/formulario.js">Enviar</script>
+</body>
+</html>

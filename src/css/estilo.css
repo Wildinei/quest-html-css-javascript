@@ -1,0 +1,77 @@
+main {
+    background: url(../img/bg-repeat.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.container .conteudo {
+    width: 500px;
+}
+
+.container .conteudo h1 {
+    font-size: 35px;
+    font-weight: 900px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.container .conteudo p {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff; 
+}
+
+.container .formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 500px;
+    padding: 35px;
+}
+
+.container .formulario .input {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #000;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.container .formulario small { 
+    font-size: 11px;
+    color: #ff0000;
+}
+
+.mostrar {
+    display: none;
+}
+
+.container .formulario P {
+    margin: 10px;
+    font-size: 14px;
+}
+
+.container .formulario .btn {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #00C22B;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.container .formulario .vermelho {
+    border: 2px solid #ff0000;
+}
+
+.container .formulario .verde {
+    border: 2px solid #00C22B;
+}

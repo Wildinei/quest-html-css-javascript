@@ -1,0 +1,46 @@
+@media (max-width: 1080px) {
+    .container .conteudo {
+        width: 400px;
+    }
+    
+    .container .formulario {
+        width: 400px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container .conteudo h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    
+    .container .conteudo p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .container .formulario {
+        padding: 25px;
+        width: 350px;    
+    }
+
+    .container .formulario .input {
+        padding: 4px;
+    }
+}
+
+@media (max-width: 430px) {
+    .container .conteudo {
+        width: 300px;
+    }
+
+    .container .formulario {
+        width: 250px;
+    }
+}
